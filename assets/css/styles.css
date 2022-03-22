@@ -1,0 +1,456 @@
+
+/*Header CSS*/
+.header{
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    height: var(--height-header);
+    background-color: var(--white-color);
+    box-shadow: 0 0px 10px 4px rgb(0, 0, 0, 0.12);
+    z-index: 1;
+    
+}
+
+.header__body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 240px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-image{
+    width: 60%;
+    
+}
+
+.nav{
+    flex-shrink: 1;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav__item:hover .nav__link{
+    color: #9fdef4;
+}
+
+.nav__item:last-child .nav__link{
+    padding-right: 0;
+}
+
+.nav__link{
+    display: block;
+    text-decoration: none;
+    padding:27px 20px ;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #6e6854;
+    text-transform: uppercase;
+    
+}
+
+/*Content CSS */
+/*Slider CSS  */
+.slider{
+    padding-top: 50%;
+    background-size: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.slider::before{
+    content: "";
+    background: url('http://mauweb.monamedia.net/helenspa/wp-content/uploads/2019/06/slide-2.jpg') no-repeat top / cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.slider__wrapper{
+    max-width: 860px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.slider__headding{
+    font-size: 4.8rem;
+    font-family: 'Great Vibes', cursive;
+    line-height: 1.4;
+}
+
+.slider__title{
+    font-size: 4.6rem;
+    margin: 16px 0;
+    color: #ec006c;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.slider__text{
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* services CSS */
+.bg-pink-light{
+    background-color: #f7f6ed;
+}
+
+.section{
+    padding: 60px;
+}
+
+.section__heading{
+    text-align: center;
+    color: #b1a684;
+    font-size: 4rem;   
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    line-height: 1.4
+    
+}
+.section__title{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 16px 0;
+    color: #b1a684;
+    text-transform: uppercase;
+    line-height: 1.4
+}
+.services__heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.services__circle{
+    width: 200px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: linear 0.2s;
+}
+
+.services__circle:hover{
+    box-shadow: 0 0 30px 20px rgb(0, 0, 0, 0.05);
+}
+
+
+.services__img{
+    width: 90px;
+}
+
+
+.services__name{
+    font-size: 2.6rem;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    color: #5f5842;
+    position: relative;
+}
+.services__name::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #5f5842;
+}
+
+.services__description{
+    text-align: center;
+    font-size: 1.6rem;
+    color: #5f5842;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+/* services_famous CSS  */
+
+
+.services-famous {
+    text-align: center;
+}
+
+.services-famous__heading {
+    margin-top: 32px;
+}
+
+.services-famous__img {
+    width: 165px;
+    border-radius: 50%;
+}
+
+.services-famous__name {
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 400;
+    color: #5f5842;
+    margin: 22px 0;
+    line-height: 1.4;
+}
+
+.services-famous__description {
+    font-size: 1.6rem;
+    color: #5f5842;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.services-famous__btn{
+    margin: 22px 0;
+    border: 2px solid #b1a684;
+    color: #b1a684;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.services-famous__btn:hover,.services-famous__btn:hover .services-famous__icon{
+    background-color:#b1a684;
+    color: #fff;
+}
+
+.services-famous__icon{
+    color: #b1a684;
+    background-color: transparent;
+    font-size: 10px;
+    padding-left: 4px;
+}
+
+/* invitation CSS  */
+
+.bg-pink-strong{
+    background-color: #f2ebd6;
+}
+
+
+.invitation{
+    text-align: center;
+}
+
+.invitation__heading{
+    margin-top: 32px;
+}
+
+.invitation__img{
+    width: 55px;
+}
+
+.invitation__name{
+    font-size: 24px;
+    color: #5f5842;
+    margin: 20px 0 32px 0;
+    position: relative;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.invitation__name::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 50%;
+    bottom: -50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #5f5842;
+}
+
+.invitation__description{
+    font-size: 16px;
+    color: #5f5842;
+    margin: 16px 0;
+    line-height: 1.4;
+}
+
+
+/* Contact CSS */
+.contact{
+    max-width: 520px;
+    background-color: #b1a684;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+
+.contact__form{
+}
+
+.contact__form-label{
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact__form-control{
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #b1a684;
+    font-size: 16px;
+}
+
+.contact__form-control:focus{
+    box-shadow: 0px 0px 2px 2px rgba(233, 167, 9, 0.2);
+    outline:1px solid #d6d6d6;
+}
+
+
+.contact__btn{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__btn-form{
+    min-width: 160px;
+    color: #b1a684;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: linear 0.15s;
+}
+
+.contact__btn-form:hover{
+    background-color: #6c6651;
+}
+
+
+/* Blogs CSS */
+.blogs{
+    margin-top: 32px;
+}
+
+.blogs__heading{
+    padding-top: 50%;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blogs__body{
+    padding: 16px 12px;
+}
+
+.blogs__title{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 18px;
+    color: #5f5842;
+}
+
+.blogs__text{
+    font-size: 1.4rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+
+/* footer CSS  */
+.footer__heading{
+    margin:50px 0 ;
+}
+
+.footer__heading-logo{
+    margin-bottom: 20px;
+}
+
+.footer__heading-img{
+    /* width: 100%; */
+}
+
+.footer__heading-text ,.footer__heading-detail{
+    font-size: 1.8rem;
+    color: #5f5842;
+    line-height: 1.6;
+}
+
+.footer__heading-contact{
+    font-size: 2.6rem;
+    color: #5f5842;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.footer__heading-contact::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom:-50%;
+    left: 0;
+    height: 1px;
+    width: 50%;
+    background-color: #5f5842;
+}
+
+/* .footer__heading-detail{
+    font-size: 1.8rem;
+    color: #5f5842;
+    line-height: 1.6;
+} */
+
+.footer__heading-address{
+
+}
+
+.footer__heading-phone, .footer__heading-email-link{
+    display: block;
+    text-decoration: none;
+    color: #5f5842;
+}
+
+.footer__heading-social{
+   margin-top: 4px;
+}
+
+.footer__heading-social-link{
+    text-decoration: none;
+    margin-right: 8px;
+    color: #5f5842;
+}
+
+.footer__heading-detail a:hover{
+    opacity: 0.7;
+}
+
+.footer__copycript{
+    --footer-copycript-height: 48px;
+    height: var(--footer-copycript-height);
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.footer__copycript-text{
+    line-height: var(--footer-copycript-height);
+}
+
