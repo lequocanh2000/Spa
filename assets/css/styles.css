@@ -1,9 +1,10 @@
 
 /*Header CSS*/
 .header{
-    position: sticky;
-    position: -webkit-sticky; /* Safari */
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     height: var(--height-header);
     background-color: var(--white-color);
     box-shadow: 0 0px 10px 4px rgb(0, 0, 0, 0.12);
@@ -44,17 +45,19 @@
 .nav__link{
     display: block;
     text-decoration: none;
-    padding:27px 20px ;
+    padding:0 20px ;
     font-size: 1.4rem;
     font-weight: 600;
     color: #6e6854;
     text-transform: uppercase;
+    line-height: var(--height-header);
     
 }
 
 /*Content CSS */
 /*Slider CSS  */
 .slider{
+    margin-top: var(--height-header);
     padding-top: 50%;
     background-size: 100%;
     position: relative;
@@ -107,7 +110,7 @@
 }
 
 .section{
-    padding: 60px;
+    padding:60px 0;
 }
 
 .section__heading{
@@ -293,8 +296,6 @@
     line-height: 1.4;
 }
 
-.contact__form{
-}
 
 .contact__form-label{
     display: block;
@@ -382,9 +383,9 @@
     margin-bottom: 20px;
 }
 
-.footer__heading-img{
-    /* width: 100%; */
-}
+/* .footer__heading-img{
+    width: 100%;
+} */
 
 .footer__heading-text ,.footer__heading-detail{
     font-size: 1.8rem;
@@ -418,9 +419,9 @@
     line-height: 1.6;
 } */
 
-.footer__heading-address{
+/* .footer__heading-address{
 
-}
+} */
 
 .footer__heading-phone, .footer__heading-email-link{
     display: block;

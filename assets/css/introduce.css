@@ -12,9 +12,10 @@
 
 /*Header CSS*/
 .header{
-    position: sticky;
-    position: -webkit-sticky; /* Safari */
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     height: var(--height-header);
     background-color: var(--white-color);
     box-shadow: 0 0px 10px 4px rgb(0, 0, 0, 0.12);
@@ -55,19 +56,20 @@
 .nav__link{
     display: block;
     text-decoration: none;
-    padding:27px 20px ;
+    padding:0 20px ;
     font-size: 1.4rem;
     font-weight: 600;
     color: #6e6854;
     text-transform: uppercase;
-    
+    line-height: var(--height-header);
 }
 
 /* Breadcrumb CSS */
 .breadcrumb{
+    position: relative;
+    margin-top: var(--height-header);
     max-height: 200px;
     height: 200px;
-    position: relative;
 }
 
 .breadcrumb::before{
@@ -133,6 +135,9 @@
 
 
 /* About CSS  */
+.about__wrapper{
+    padding:0 16px;
+}
 
 .about__img{
     width: 100%;
@@ -189,7 +194,7 @@
 
 /* Section CSS  */
 .section{
-    padding: 60px;
+    padding:60px 0;
 }
 
 .section__heading{
@@ -214,11 +219,12 @@
 .staff{
     margin-top: 36px;
 }
-
+.staff_wrapper{
+    padding: 0 12px;
+}
 .staff__img{
     width: 100%;
 }
-
 .staff__body{
     padding: 24px 20px;
     background-color: #fff;
@@ -322,9 +328,9 @@
     background-color: #5f5842;
 }
 
-.footer__heading-address{
+/* .footer__heading-address{
 
-}
+} */
 
 .footer__heading-phone, .footer__heading-email-link{
     display: block;

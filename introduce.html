@@ -17,6 +17,13 @@
 <body>
     <div class="main">
         <header class="header">
+            <!-- Button on mobile start -->
+            <div class="header__btn show-on-mobile">
+                <button class="header__btn-mobile js-btn-mobile">
+                    <i class="header__icon-mobile ti-menu"></i>
+                </button>
+            </div> 
+            <!-- Button on mobile end -->
             <div class="grid wide">
                 <div class="header__body">
                     <div class="header__logo">
@@ -57,18 +64,20 @@
             <div class="section bg-pink-light">
                 <div class="about">
                     <div class="grid wide">
-                        <div class="row">
-                            <div class="col pc-3">
+                        <div class="row no-gutters">
+                            <div class="col pc-3 mb-12">
                                 <img src="./assets/img/introduce/introduce1.jpg" class="about__img"></img>
                             </div>
-                            <div class="col pc-3">
+                            <div class="col pc-3 mb-12">
                                 <img src="./assets/img/introduce/introduce2.jpg" class="about__img"></img>
                             </div>
-                            <div class="col pc-6">
-                                <h3 class="about__heading">Spa Mona</h3>
-                                <h1 class="about__title">Giới thiệu về chúng tôi</h1>
-                                <p class="about__text">Hãy chăm sóc cơ thể của bạn, nơi duy nhất bạn phải sống! Đó là một ngôi đền sống. Hãy tôn trọng nó, chăm sóc nó và tận hưởng cuộc sống của bạn để phát huy hết khả năng của nó … Mona Spa chỉ giúp bạn làm điều đó!</p>
-                                <p class="about__text">Hãy chăm sóc cơ thể của bạn, nơi duy nhất bạn phải sống! Đó là một ngôi đền sống. Hãy tôn trọng nó, chăm sóc nó và tận hưởng cuộc sống của bạn để phát huy hết khả năng của nó … Mona Spa chỉ giúp bạn làm điều đó!</p>
+                            <div class="col pc-6 mb-12">
+                                <div class="about__wrapper">
+                                    <h3 class="about__heading">Spa Mona</h3>
+                                    <h1 class="about__title">Giới thiệu về chúng tôi</h1>
+                                    <p class="about__text">Hãy chăm sóc cơ thể của bạn, nơi duy nhất bạn phải sống! Đó là một ngôi đền sống. Hãy tôn trọng nó, chăm sóc nó và tận hưởng cuộc sống của bạn để phát huy hết khả năng của nó … Mona Spa chỉ giúp bạn làm điều đó!</p>
+                                    <p class="about__text">Hãy chăm sóc cơ thể của bạn, nơi duy nhất bạn phải sống! Đó là một ngôi đền sống. Hãy tôn trọng nó, chăm sóc nó và tận hưởng cuộc sống của bạn để phát huy hết khả năng của nó … Mona Spa chỉ giúp bạn làm điều đó!</p>
+                                </div>                                
                             </div>
                         </div>
                     </div>
@@ -79,7 +88,7 @@
             <div class="section">
                 <div class="quantity">
                     <div class="grid wide">
-                        <div class="row">
+                        <div class="row no-gutters">
                             <div class="col pc-3 mb-12">
                                 <div class="quantity__warpper">
                                     <img src="./assets/img/introduce/ic1.png" alt="eye" class="quantity__img">
@@ -123,37 +132,43 @@
 
                 <div class="staff">
                     <div class="grid wide">
-                        <div class="row justify-content">           
+                        <div class="row no-gutters justify-content">           
                             <div class="col pc-3 mb-12">
-                                <div class="staff__heading">
-                                    <img src="./assets/img/introduce/staff1.jpg" alt="" class="staff__img">
-                                </div>
-                                <div class="staff__body">
-                                    <h2 class="staff__name">Susan Delacour</h2>
-                                    <h4 class="staff__marjor">Chuyên gia chăm sóc da</h4>
-                                    <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
+                                <div class="staff_wrapper">
+                                    <div class="staff__heading">
+                                        <img src="./assets/img/introduce/staff1.jpg" alt="" class="staff__img">
+                                    </div>
+                                    <div class="staff__body">
+                                        <h2 class="staff__name">Susan Delacour</h2>
+                                        <h4 class="staff__marjor">Chuyên gia chăm sóc da</h4>
+                                        <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="col pc-3 mb-12">
-                                <div class="staff__heading">
-                                    <img src="./assets/img/introduce/staff2.jpg" alt="" class="staff__img">
-                                </div>
-                                <div class="staff__body">
-                                    <h2 class="staff__name">Su Hon Kim</h2>
-                                    <h4 class="staff__marjor">Thai Massage</h4>
-                                    <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
-                                </div>
+                                <div class="staff_wrapper">
+                                    <div class="staff__heading">
+                                        <img src="./assets/img/introduce/staff2.jpg" alt="" class="staff__img">
+                                    </div>
+                                    <div class="staff__body">
+                                        <h2 class="staff__name">Su Hon Kim</h2>
+                                        <h4 class="staff__marjor">Thai Massage</h4>
+                                        <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
+                                    </div>
+                                </div>                               
                             </div>
 
                             <div class="col pc-3 mb-12">
-                                <div class="staff__heading">
-                                    <img src="./assets/img/introduce/staff3.jpg" alt="" class="staff__img">
-                                </div>
-                                <div class="staff__body">
-                                    <h2 class="staff__name">Melwyn Mccarthy</h2>
-                                    <h4 class="staff__marjor">Chuyên gia Spa thảo dược</h4>
-                                    <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
+                                <div class="staff_wrapper">
+                                    <div class="staff__heading">
+                                        <img src="./assets/img/introduce/staff3.jpg" alt="" class="staff__img">
+                                    </div>
+                                    <div class="staff__body">
+                                        <h2 class="staff__name">Melwyn Mccarthy</h2>
+                                        <h4 class="staff__marjor">Chuyên gia Spa thảo dược</h4>
+                                        <p class="staff__time">Monday to Friday : 08:00 – 17:00 hrs</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>        
@@ -168,12 +183,12 @@
 
                 <div class="customer">
                     <div class="grid wide">
-                        <div class="row justify-content">
-                            <div class="col pc-7">
+                        <div class="row no-gutters justify-content">
+                            <div class="col pc-7 mb-12">
                                 <p class="customer__comment">Đi đến Spa là cách tốt nhất để vượt qua mọi hình thức căng thẳng. Mona Spa là hạnh phúc thuần túy. Tất cả những điều tốt đẹp đến từ hạnh phúc bên trong. Hãy đối xử tốt với bản thân bằng cách đến Spa ngay hôm nay!</p>
                             </div>
                         </div>
-                        <div class="row justify-content">
+                        <div class="row no-gutters justify-content">
                             <div class="col pc-3 mb-12">
                                 <div class="customer__body">
                                     <img src="./assets/img/introduce/customer-3.png" class="customer__img">
@@ -198,7 +213,7 @@
                             </div>
                         </div>
 
-                        <div class="row justify-content">
+                        <div class="row no-gutters justify-content">
                             <div class="col pc-3">
                                 <div class="customer__body">
                                     <p class="customer__text">Khách thường xuyên đến Spa</p>
@@ -251,8 +266,8 @@
         <footer class="footer">
             <div class="footer__heading">
                 <div class="grid wide">
-                    <div class="row">
-                        <div class="col pc-6">
+                    <div class="row no-gutters">
+                        <div class="col pc-6 mgb-30">
                             <div class="footer__heading-logo">
                                 <img  src="./assets/img/footer-logo.png" class="footer__heading-img" alt="">
                             </div>

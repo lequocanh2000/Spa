@@ -9,15 +9,14 @@
 .bg-pink-strong{
     background-color: #f2ebd6;
 }
-.mb-30{
-    padding-bottom: 30px;
-}
+
 
 /*Header CSS*/
 .header{
-    position: sticky;
-    position: -webkit-sticky; /* Safari */
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     height: var(--height-header);
     background-color: var(--white-color);
     box-shadow: 0 0px 10px 4px rgb(0, 0, 0, 0.12);
@@ -58,18 +57,20 @@
 .nav__link{
     display: block;
     text-decoration: none;
-    padding:27px 20px ;
+    padding:0 20px ;
     font-size: 1.4rem;
     font-weight: 600;
     color: #6e6854;
     text-transform: uppercase;
+    line-height: var(--height-header);
     
 }
 
 
 /* content__heading CSS */
 .content__heading{
-    margin: 28px 0;
+    margin-top: var(--height-header);
+    padding: 28px 0;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.4;
@@ -158,9 +159,9 @@
     
 }
 
-.sidebar__content-item-heading{
+/* .sidebar__content-item-heading{
 
-}
+} */
 
 .sidebar__content-item-img{
     width: 40px;
@@ -180,10 +181,11 @@
 
 /* news CSS */
 .news{
-    padding-left: 30px;
+    padding-left: 44px;
 }
 
 .news__card{
+    margin: 0 12px;
     box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
     transition: linear 0.15s;
 }
@@ -276,9 +278,9 @@
     background-color: #5f5842;
 }
 
-.footer__heading-address{
+/* .footer__heading-address{
 
-}
+} */
 
 .footer__heading-phone, .footer__heading-email-link{
     display: block;

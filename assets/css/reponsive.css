@@ -7,15 +7,95 @@ PC >= 1024 */
 
 /* mobile  */
 @media (max-width: 739px) {
-    
+    :root{
+        --height-header: 52px;
+    }
+
+    .show-on-mobile {
+        display: block;
+    }
+
+    .header{
+        overflow: hidden;
+    }
+
+    .header__logo{
+        display: none;
+    }
+
+    .nav{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slider__headding {
+        font-size: 2.6rem;
+        line-height: 1.4;
+    }
+
+    .slider__title{
+        font-size: 2.6rem;
+        margin: 0px 0;
+        line-height: 1.4;
+    }
+    .slider__text{
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    /* index.html > services, services-famous, invitation */
+    .service,.services-famous ,.invitation{
+        padding: 0 52px;
+    }
+
+    .contact__btn-form{
+        width: 100%;
+    }
+
+
+    /* introduce.html  */
+    .about__wrapper{
+        padding-top: 12px;
+    }
+
+    .staff_wrapper{
+        padding: 0;
+    }
+
+
+    /* Footer css  */
+    .footer__heading {
+        padding: 0 16px;
+    }
+
+    /* News css  */
+    .sidebar{
+        padding: 16px;
+    }
+
+    .sidebar::after{
+        display: none;
+    }
+
+    .news{
+        padding: 0;
+    }
+
+    .news__card{
+        margin: 0;
+    }
+
+
 }
 
 /* tablet  */
-@media (min-width: 740px) and (max-width: 1023) {
-    
+@media (min-width: 740px) and (max-width: 1023px) {
+    .nav__link{
+        padding: 0px 12px;
+    }
 }
 
 /* pc  */
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
     
 }

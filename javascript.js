@@ -60,3 +60,16 @@ btnSubmit.onclick = () => {
     },500)
   }
 }
+
+
+// click button on mobile
+var btnOnMobile = document.querySelector('.js-btn-mobile')
+console.log(btnOnMobile)
+
+btnOnMobile.onclick = (e) =>{
+  const header = document.querySelector('.header')
+  console.log(header);
+  console.log(header.classList);
+  header.classList.toggle('header--heigth-auto')
+  console.log(header.classList);
+}

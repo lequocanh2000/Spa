@@ -20,6 +20,28 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Padding and margin  */
+.mgb-30{
+    margin-bottom: 30px;
+}
+
+.pl-12{
+    padding-left: 12px;
+}
+.pr-12{
+    padding-right: 12px;
+}
+.pt-60{
+    padding-top: 60px;
+}
+.pt-60{
+    padding-bottom: 60px;
+}
+
+
+
+
+
 .row.gutter-8 {
     margin: 0 -8px;
 }
@@ -97,9 +119,9 @@ html{
     padding: 16px;
 }
 
-.modal__heading-title{
+/* .modal__heading-title{
 
-}
+} */
 
 .modal__heading-text{
     font-size: 3.2rem;
@@ -150,9 +172,9 @@ html{
     outline: none;
 }
 
-.modal__option{
+/* .modal__option{
     
-}
+} */
 
 .modal__footer{
     background-color: #fff;
@@ -194,3 +216,35 @@ html{
     opacity: 0.8;
 }
 
+
+/* Button on mobile CSS */
+.header--heigth-auto{
+    height: auto !important;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+/* .header__btn{
+     height: 100%; 
+     display: flex; 
+     align-items: center;
+} */
+
+.header__btn-mobile{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: #fff;
+    padding: 16px 16px;
+}
+
+.header__btn-mobile:hover{
+    color: #9fdef4;
+}
+
+.header__icon-mobile {
+    font-size: 16px;
+}
