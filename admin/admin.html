@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin</title>
+        <link rel="stylesheet" href="./assets/css/grid.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="./assets/css/admin.css">
+        <link rel="stylesheet" href="./assets/css/reponsive.css">
+        <link rel="stylesheet" href="./assets/fonts/icon/themify-icons/themify-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- font-family: 'Rajdhani', sans-serif; -->
+</head>
+<body>
+    <div class="main">
+        <!-- Sidebar  -->
+        <div class="sidebar js-sidebar">
+            <div class="sidebar__button sidebar__button-mobile js-sidebar-button-mobile">
+                <button class="sidebar__button-close js-sidebar-button-close">
+                    <i class="sidebar__button-icon ti-close"></i>
+                </button>
+            </div>
+
+            <div class="sidebar__heading">
+                <div class="sidebar__logo">
+                    <img src="./assets/img/logo.PNG" alt="admin" class="sidebar__logo-img"></img>
+                </div>
+                <!-- <div class="sidebar__user">
+                    <div class="sidebar__user-info">
+                        <div class="sidebar__user-avatar">
+                            <img src="./assets/img/user/admin.PNG" alt="admin" class="sidebar__user-img">
+                        </div>
+                        <h3 class="sidebar__user-name">Andy</h3>
+                        <p class="sidebar__user-email">andy@gmail.com</p>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="sidebar__body">
+                <ul class="sidebar__nav">
+                    <li class="sidebar__nav-item">
+                        <h3 class="sidebar__nav-title">Trang chủ</h3>
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-home"></i>
+                            Trang chủ
+                        </a>
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <h3 class="sidebar__nav-title">Quản lý</h3>
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-world"></i>
+                            Dịch vụ
+                        </a>
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-user"></i>
+                            Nhân viên
+                        </a>
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-briefcase"></i>
+                            Thiết bị
+                        </a>
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-printer"></i>
+                            Hóa đơn
+                        </a>   
+                    </li>
+                    <li class="sidebar__nav-item">
+                        <h3 class="sidebar__nav-title">Thống kê</h3>                
+                        <a href="#" class="sidebar__nav-link">
+                            <i class="sidebar__nav-icon ti-bar-chart"></i>
+                            Doanh thu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Content  -->
+        <div class="content">
+            <header class="header">
+
+                <div class="header__btn header__btn-mobile js-header-btn-moblie">
+                    <button class="header__btn-menu js-header-btn-menu">
+                        <i class="header__btn-menu-icon ti-menu"></i>
+                    </button>
+                </div>
+
+                <div class="header__search js-header-search">
+                    <input type="text" class="header__search-control" placeholder="Tìm kiếm ...">
+                    <button class="header__search-btn">
+                        <i class="header__search-icon ti-search"></i>
+                    </button>
+                </div>
+
+                <div class="header__wrapper">
+                    <div class="header__notification">
+                        <div class="header__notification-warpper">
+                            <i class="header__notification-icon ti-bell"></i>
+
+                            <!-- notification dot -->
+                            <span class="header__notification-dot-bell"></span>
+
+                            <!-- notification list -->
+                            <div class="header__notification-list header__notification-list--bell">
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user1.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Amily</h3>
+                                        <p class="header__notification-content-text">Hello world</p>
+                                    </div>
+                                </div>
+
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user2.png" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Dumberdol</h3>
+                                        <p class="header__notification-content-text">Hello world</p>
+                                    </div>
+                                </div>
+
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user3.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Dumbledore</h3>
+                                        <p class="header__notification-content-text">Hello Haryy Potter</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user4.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Harry Potter</h3>
+                                        <p class="header__notification-content-text">Good morning Mr.Dumbledore</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+                        
+                        <div class="header__notification-warpper ">
+                            <i class="header__notification-icon ti-comments-smiley"></i>
+
+                             <!-- notification dot -->
+                             <span class="header__notification-dot-chat"></span>
+
+                            <!-- notification list -->
+                            <div class="header__notification-list header__notification-list--chat">
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user1.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Amily</h3>
+                                        <p class="header__notification-content-text">Hello world</p>
+                                    </div>
+                                </div>
+
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user2.png" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Dumberdol</h3>
+                                        <p class="header__notification-content-text">Hello world</p>
+                                    </div>
+                                </div>
+
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user3.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Dumbledore</h3>
+                                        <p class="header__notification-content-text">Hello Haryy Potter</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="header__notification-item">
+                                    <div class="header__notification-avatar">
+                                        <img src="./assets/img/user/user4.PNG" alt="user" class="header__notification-avatar-img"></img>
+                                    </div>
+                                    <div class="header__notification-content">
+                                        <h3 class="header__notification-content-username">Harry Potter</h3>
+                                        <p class="header__notification-content-text">Good morning Mr.Dumbledore</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="header__avatar">
+                        <img src="./assets/img/user/admin.PNG" alt="admin" class="header__avatar-img">
+
+                        <div class="header__avatar-list">
+                            <div class="header__avatar-item">
+                                <div class="header__avatar-content">
+                                    <a href="#" class="header__avatar-link">
+                                        <i class="header__avatar-icon ti-settings"></i>
+                                        Settings
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header__avatar-item">
+                                <div class="header__avatar-content">
+                                    <a href="#" class="header__avatar-link">
+                                        <i class="header__avatar-icon ti-shift-right"></i>
+                                        Log out
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Container -->
+            <div class="container">
+                <!-- Welcome -->
+                <div class="welcome">
+                    <div class="grid">
+                        <div class="row no-gutters">
+                            <div class="col pc-12 t-12 mb-12">
+                                <div class="card">
+                                    <div class="card__heading">
+                                        <div class="card__avatar">
+                                            <img src="./assets/img/user/admin.PNG" alt="avatar Admin" class="card__avatar-img">
+                                        </div>
+                                    </div>
+                                    <div class="card__body">
+                                        <div class="card__body-title">Welcome Andy! How are you to day?</div>
+                                        <div class="card__body-text">Wish you have an active and creative working day!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+
+                <!-- Descriptions -->
+                <div class="descriptions">
+                    <div class="grid">
+                        <div class="row no-gutters">
+                            <div class="col pc-3 t-6 mb-12">
+                                <div class="card">
+                                    <div class="card__heading">
+                                        <i class="card__heading-icon ti-support"></i>
+                                    </div>
+                                    <div class="card__body">
+                                        <div class="card__quantity">500</div>
+                                        <div class="card__title">Điều trị</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col pc-3 t-6 mb-12">
+                                <div class="card">
+                                    <div class="card__heading">
+                                        <i class="card__heading-icon ti-face-smile"></i>
+                                    </div>
+                                    <div class="card__body">
+                                        <div class="card__quantity">6969</div>
+                                        <div class="card__title">Hài lòng</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col pc-3 t-6 mb-12">
+                                <div class="card">
+                                    <div class="card__heading">
+                                        <i class="card__heading-icon ti-map-alt"></i>
+                                    </div>
+                                    <div class="card__body">
+                                        <div class="card__quantity">210</div>
+                                        <div class="card__title">Chi nhánh</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col pc-3 t-6 mb-12">
+                                <div class="card">
+                                    <div class="card__heading">
+                                        <i class="card__heading-icon ti-user"></i>
+                                    </div>
+                                    <div class="card__body">
+                                        <div class="card__quantity">410</div>
+                                        <div class="card__title">Nhân viên</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+            
+
+            <footer class="footer">
+                <div class="grid">
+                    <div class="row no-gutters">
+                        <div class="col pc-12 t-12 mb-12">
+                            <div class="card">
+                                <div class="footer__copycript">
+                                    <h3 class="footer__copycript-text">© Copycript by LeQuocAnh</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./assets/js/admin.js"></script>
+</body>
+</html>
