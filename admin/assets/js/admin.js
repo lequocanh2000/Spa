@@ -56,8 +56,11 @@ btnSidebarMobile.addEventListener('click',(e) => {
 })
 
 window.onclick = (e)=>{
-    sidebar.classList.add('fadeIn')
-    console.log('click window close menu')
+    const width = window.innerWidth
+    if(width < 1024){
+        sidebar.classList.add('fadeIn')
+        console.log('click window close menu')
+    }
 }
 
 
