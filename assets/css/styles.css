@@ -178,11 +178,12 @@
 }
 
 .services__description{
-    text-align: center;
+    text-align: justify;
     font-size: 1.6rem;
     color: #5f5842;
     line-height: 1.6;
     margin-top: 20px;
+    padding: 0 16px;
 }
 
 /* services_famous CSS  */
@@ -215,6 +216,8 @@
     color: #5f5842;
     line-height: 1.6;
     font-style: italic;
+    padding: 0 16px;
+    text-align: justify;
 }
 
 .services-famous__btn{
@@ -283,6 +286,7 @@
     color: #5f5842;
     margin: 16px 0;
     line-height: 1.4;
+    padding: 0 32px;
 }
 
 
@@ -391,6 +395,7 @@
     font-size: 1.8rem;
     color: #5f5842;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .footer__heading-contact{
