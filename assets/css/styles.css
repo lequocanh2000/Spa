@@ -67,7 +67,7 @@
 
 .slider::before{
     content: "";
-    background: url('/assets/img/slider.jpg') no-repeat top / cover;
+    background: url('../img/slider.jpg') no-repeat top / cover;
     position: absolute;
     top: 0px;
     right: 0px;
