@@ -67,7 +67,8 @@
 
 .slider::before{
     content: "";
-    background: url('http://mauweb.monamedia.net/helenspa/wp-content/uploads/2019/06/slide-2.jpg') no-repeat top / cover;
+    /* background: url('http://mauweb.monamedia.net/helenspa/wp-content/uploads/2019/06/slide-2.jpg') no-repeat top / cover; */
+    background: url('/assets/img/slider.jpg') no-repeat top / cover;
     position: absolute;
     top: 0px;
     right: 0px;
